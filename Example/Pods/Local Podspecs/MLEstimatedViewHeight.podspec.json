@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of MLEstimatedViewHeight.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Mars/MLEstimatedViewHeight",
+  "homepage": "https://github.com/Mars116/MLEstimatedViewHeight",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Mars": "296405485@qq.com"
   },
   "source": {
-    "git": "https://github.com/Mars/MLEstimatedViewHeight.git",
+    "git": "https://github.com/Mars116/MLEstimatedViewHeight.git",
     "tag": "0.1.0"
   },
   "platforms": {
