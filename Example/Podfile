@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MLEstimatedViewHeight_Example' do
+  pod 'MLEstimatedViewHeight', :path => '../'
+
+  target 'MLEstimatedViewHeight_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

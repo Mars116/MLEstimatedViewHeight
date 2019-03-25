@@ -1,0 +1,6 @@
+framework module MLEstimatedViewHeight {
+  umbrella header "MLEstimatedViewHeight-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B799BEB7B4F4E6B5FC641DB03014E31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2578BB5F2A64BB0BA0C4AD2478A6C9DA /* MLEstimatedViewHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5E06ED0A47ED394C720FEC68C8471F /* MLEstimatedViewHeight.m */; };
+		28A91E620D1F4729EF01E24D8D3FD896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2A5E1618565976C648E5A1A6D460D380 /* MLEstimatedViewHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4109653B5742CA2CA6843897612596 /* MLEstimatedViewHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3511166E4F256B2034E0B4E3F9D49CE8 /* MLEstimatedViewHeight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01925D80B7D7B37FC1C7DCC2DCF1B85B /* MLEstimatedViewHeight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C53493D9FD20C206C354201103A9D2F /* MLEstimatedViewHeight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ABA73F48961039CCAB0620D909EB8E /* MLEstimatedViewHeight-dummy.m */; };
+		6D5A001617BD4F69AA515EC6A03E6825 /* UIView+MLHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAED4A1F0CA8B188F45279DDAF6F8CD /* UIView+MLHeight.m */; };
+		84B727704C64AD3C3863ED867C873FD5 /* Pods-MLEstimatedViewHeight_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16E772356BA69CEF49EFD43E656CDFC /* Pods-MLEstimatedViewHeight_Example-dummy.m */; };
+		A34913A395EA2B6AE1B5BC8BD0E97780 /* Pods-MLEstimatedViewHeight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776A576C4987D5D6C6D9BC1754ADBEBE /* Pods-MLEstimatedViewHeight_Tests-dummy.m */; };
+		B0175BBCCA5A15FC461D1FB43F44FF31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D8412C57C78A8819B52D4CA58F869CA1 /* UIView+MLHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8525BAF97F071B76C5A2C8439E5118 /* UIView+MLHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEBCD46D444AE43ECC4185574C0FE280 /* Pods-MLEstimatedViewHeight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DA76A68FFB81283DBF1C8552C42CFA /* Pods-MLEstimatedViewHeight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4883195E3743B1A26D2BD79276905FE /* Pods-MLEstimatedViewHeight_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAAFBDBB3998C74A32F867AD3398C7B /* Pods-MLEstimatedViewHeight_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363A7CAB813190DE5793E58D4364F28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A17D68212A4FB718CAAB336831FFC4;
+			remoteInfo = "Pods-MLEstimatedViewHeight_Example";
+		};
+		E64C342067CC5362C241ECF79C0C3555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CFB6716277255D5CFD8E4A780CDA0EF;
+			remoteInfo = MLEstimatedViewHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01925D80B7D7B37FC1C7DCC2DCF1B85B /* MLEstimatedViewHeight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLEstimatedViewHeight-umbrella.h"; sourceTree = "<group>"; };
+		0BAED4A1F0CA8B188F45279DDAF6F8CD /* UIView+MLHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MLHeight.m"; path = "MLEstimatedViewHeight/Classes/MLEstimatedViewHeight/UIView+MLHeight.m"; sourceTree = "<group>"; };
+		11FA841AFFC1F3A99E8224E4A3196315 /* MLEstimatedViewHeight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLEstimatedViewHeight.framework; path = MLEstimatedViewHeight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253BC5C083CA6DF70495CBAB753F1D26 /* Pods-MLEstimatedViewHeight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLEstimatedViewHeight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E60CA4B0C502E2B7CC90B1D44F903A0 /* Pods-MLEstimatedViewHeight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLEstimatedViewHeight_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3175ACBE804F3AE8C9B96AA5F35C5F2E /* Pods-MLEstimatedViewHeight_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MLEstimatedViewHeight_Example.modulemap"; sourceTree = "<group>"; };
+		32899B2EDFBEE815D94805B68E25D653 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		362A465EF78D0AD9AB590C95BAC10DFB /* MLEstimatedViewHeight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLEstimatedViewHeight-prefix.pch"; sourceTree = "<group>"; };
+		4133851F88D815059F0EA73EF97E5E24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417DD278CFCC85364AAC1A3011104C61 /* Pods-MLEstimatedViewHeight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLEstimatedViewHeight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5926D7D1A337D71734D8E76FBB85332B /* Pods-MLEstimatedViewHeight_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MLEstimatedViewHeight_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FC4F6ADCAE57FEF0F08C0EFCB45F654 /* Pods-MLEstimatedViewHeight_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLEstimatedViewHeight_Example-frameworks.sh"; sourceTree = "<group>"; };
+		60F0793D04278E49C3F1547DD0F2D4F3 /* Pods_MLEstimatedViewHeight_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MLEstimatedViewHeight_Example.framework; path = "Pods-MLEstimatedViewHeight_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A4109653B5742CA2CA6843897612596 /* MLEstimatedViewHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLEstimatedViewHeight.h; path = MLEstimatedViewHeight/Classes/MLEstimatedViewHeight/MLEstimatedViewHeight.h; sourceTree = "<group>"; };
+		6B303A9484A371C2A06778A6CB3443BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7429278240395D5D2858583A788AAEAA /* Pods-MLEstimatedViewHeight_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLEstimatedViewHeight_Tests-resources.sh"; sourceTree = "<group>"; };
+		74E65B7048041D59B5AB412D7B76B797 /* Pods-MLEstimatedViewHeight_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLEstimatedViewHeight_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		776A576C4987D5D6C6D9BC1754ADBEBE /* Pods-MLEstimatedViewHeight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MLEstimatedViewHeight_Tests-dummy.m"; sourceTree = "<group>"; };
+		7BC0BA4527D3DFFEDADCF5BD9DC31201 /* Pods-MLEstimatedViewHeight_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLEstimatedViewHeight_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D45C7C672FA105E8B817A45756DCC7C /* Pods-MLEstimatedViewHeight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MLEstimatedViewHeight_Tests.modulemap"; sourceTree = "<group>"; };
+		8B8525BAF97F071B76C5A2C8439E5118 /* UIView+MLHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MLHeight.h"; path = "MLEstimatedViewHeight/Classes/MLEstimatedViewHeight/UIView+MLHeight.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A210990722D289F8CED27F2429D11532 /* Pods-MLEstimatedViewHeight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MLEstimatedViewHeight_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ADAAFBDBB3998C74A32F867AD3398C7B /* Pods-MLEstimatedViewHeight_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MLEstimatedViewHeight_Example-umbrella.h"; sourceTree = "<group>"; };
+		B433BA7794E3D630243D0BC216FC1392 /* Pods-MLEstimatedViewHeight_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MLEstimatedViewHeight_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C16E772356BA69CEF49EFD43E656CDFC /* Pods-MLEstimatedViewHeight_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MLEstimatedViewHeight_Example-dummy.m"; sourceTree = "<group>"; };
+		C3652C491B6B416AEB130A938A9FC017 /* MLEstimatedViewHeight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLEstimatedViewHeight.xcconfig; sourceTree = "<group>"; };
+		C566A0E57C53E374EDE7A9ABE3EDD954 /* Pods_MLEstimatedViewHeight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MLEstimatedViewHeight_Tests.framework; path = "Pods-MLEstimatedViewHeight_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65A6B43AF06507787FC63970B07CB59 /* MLEstimatedViewHeight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLEstimatedViewHeight.modulemap; sourceTree = "<group>"; };
+		C9ABA73F48961039CCAB0620D909EB8E /* MLEstimatedViewHeight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLEstimatedViewHeight-dummy.m"; sourceTree = "<group>"; };
+		CBADA4D1924A0A0B1389F39DDA21DD7E /* Pods-MLEstimatedViewHeight_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MLEstimatedViewHeight_Example-resources.sh"; sourceTree = "<group>"; };
+		D3E7FB8F0286D88097AEEB2A89FABCA5 /* MLEstimatedViewHeight.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MLEstimatedViewHeight.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB5E06ED0A47ED394C720FEC68C8471F /* MLEstimatedViewHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLEstimatedViewHeight.m; path = MLEstimatedViewHeight/Classes/MLEstimatedViewHeight/MLEstimatedViewHeight.m; sourceTree = "<group>"; };
+		E7B9A1421F9A80A7737E4FB5B150402C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F1DA76A68FFB81283DBF1C8552C42CFA /* Pods-MLEstimatedViewHeight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MLEstimatedViewHeight_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F32BE02773D71E82738327F482D13852 /* Pods-MLEstimatedViewHeight_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MLEstimatedViewHeight_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8294161A81350B9BC9BBC948FDB675D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C5BD19D957345635225990C84A316B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A91E620D1F4729EF01E24D8D3FD896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A3E940AA71B0D5205688D4A6AF4720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0175BBCCA5A15FC461D1FB43F44FF31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99D3921CCBB109CE32A4EC7A001F53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B799BEB7B4F4E6B5FC641DB03014E31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BEDB543B2113DD5A1D3EB236E7CBF7 /* Pods-MLEstimatedViewHeight_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4133851F88D815059F0EA73EF97E5E24 /* Info.plist */,
+				7D45C7C672FA105E8B817A45756DCC7C /* Pods-MLEstimatedViewHeight_Tests.modulemap */,
+				417DD278CFCC85364AAC1A3011104C61 /* Pods-MLEstimatedViewHeight_Tests-acknowledgements.markdown */,
+				B433BA7794E3D630243D0BC216FC1392 /* Pods-MLEstimatedViewHeight_Tests-acknowledgements.plist */,
+				776A576C4987D5D6C6D9BC1754ADBEBE /* Pods-MLEstimatedViewHeight_Tests-dummy.m */,
+				74E65B7048041D59B5AB412D7B76B797 /* Pods-MLEstimatedViewHeight_Tests-frameworks.sh */,
+				7429278240395D5D2858583A788AAEAA /* Pods-MLEstimatedViewHeight_Tests-resources.sh */,
+				F1DA76A68FFB81283DBF1C8552C42CFA /* Pods-MLEstimatedViewHeight_Tests-umbrella.h */,
+				253BC5C083CA6DF70495CBAB753F1D26 /* Pods-MLEstimatedViewHeight_Tests.debug.xcconfig */,
+				A210990722D289F8CED27F2429D11532 /* Pods-MLEstimatedViewHeight_Tests.release.xcconfig */,
+			);
+			name = "Pods-MLEstimatedViewHeight_Tests";
+			path = "Target Support Files/Pods-MLEstimatedViewHeight_Tests";
+			sourceTree = "<group>";
+		};
+		30F38479B7D0937AD811F01DFEFD491D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3C730DF1C93138DEDC2C61684F7133D /* MLEstimatedViewHeight */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A60AF4B684E0FD7E2B8BF3A2348B144 /* Pods-MLEstimatedViewHeight_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8294161A81350B9BC9BBC948FDB675D /* Info.plist */,
+				3175ACBE804F3AE8C9B96AA5F35C5F2E /* Pods-MLEstimatedViewHeight_Example.modulemap */,
+				5926D7D1A337D71734D8E76FBB85332B /* Pods-MLEstimatedViewHeight_Example-acknowledgements.markdown */,
+				F32BE02773D71E82738327F482D13852 /* Pods-MLEstimatedViewHeight_Example-acknowledgements.plist */,
+				C16E772356BA69CEF49EFD43E656CDFC /* Pods-MLEstimatedViewHeight_Example-dummy.m */,
+				5FC4F6ADCAE57FEF0F08C0EFCB45F654 /* Pods-MLEstimatedViewHeight_Example-frameworks.sh */,
+				CBADA4D1924A0A0B1389F39DDA21DD7E /* Pods-MLEstimatedViewHeight_Example-resources.sh */,
+				ADAAFBDBB3998C74A32F867AD3398C7B /* Pods-MLEstimatedViewHeight_Example-umbrella.h */,
+				7BC0BA4527D3DFFEDADCF5BD9DC31201 /* Pods-MLEstimatedViewHeight_Example.debug.xcconfig */,
+				2E60CA4B0C502E2B7CC90B1D44F903A0 /* Pods-MLEstimatedViewHeight_Example.release.xcconfig */,
+			);
+			name = "Pods-MLEstimatedViewHeight_Example";
+			path = "Target Support Files/Pods-MLEstimatedViewHeight_Example";
+			sourceTree = "<group>";
+		};
+		63B9A759601EBA971AC7CE192AF842EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B303A9484A371C2A06778A6CB3443BD /* Info.plist */,
+				C65A6B43AF06507787FC63970B07CB59 /* MLEstimatedViewHeight.modulemap */,
+				C3652C491B6B416AEB130A938A9FC017 /* MLEstimatedViewHeight.xcconfig */,
+				C9ABA73F48961039CCAB0620D909EB8E /* MLEstimatedViewHeight-dummy.m */,
+				362A465EF78D0AD9AB590C95BAC10DFB /* MLEstimatedViewHeight-prefix.pch */,
+				01925D80B7D7B37FC1C7DCC2DCF1B85B /* MLEstimatedViewHeight-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MLEstimatedViewHeight";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				30F38479B7D0937AD811F01DFEFD491D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ECBBD5D981890CA509A7A21A7FE90D08 /* Products */,
+				AC8A1D3A5B75E3B4673104700DC88D4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		989225D7E32CCC26BC734EF9C5DFED57 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32899B2EDFBEE815D94805B68E25D653 /* LICENSE */,
+				D3E7FB8F0286D88097AEEB2A89FABCA5 /* MLEstimatedViewHeight.podspec */,
+				E7B9A1421F9A80A7737E4FB5B150402C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AC8A1D3A5B75E3B4673104700DC88D4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A60AF4B684E0FD7E2B8BF3A2348B144 /* Pods-MLEstimatedViewHeight_Example */,
+				03BEDB543B2113DD5A1D3EB236E7CBF7 /* Pods-MLEstimatedViewHeight_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3C730DF1C93138DEDC2C61684F7133D /* MLEstimatedViewHeight */ = {
+			isa = PBXGroup;
+			children = (
+				6A4109653B5742CA2CA6843897612596 /* MLEstimatedViewHeight.h */,
+				DB5E06ED0A47ED394C720FEC68C8471F /* MLEstimatedViewHeight.m */,
+				8B8525BAF97F071B76C5A2C8439E5118 /* UIView+MLHeight.h */,
+				0BAED4A1F0CA8B188F45279DDAF6F8CD /* UIView+MLHeight.m */,
+				989225D7E32CCC26BC734EF9C5DFED57 /* Pod */,
+				63B9A759601EBA971AC7CE192AF842EA /* Support Files */,
+			);
+			name = MLEstimatedViewHeight;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ECBBD5D981890CA509A7A21A7FE90D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FA841AFFC1F3A99E8224E4A3196315 /* MLEstimatedViewHeight.framework */,
+				60F0793D04278E49C3F1547DD0F2D4F3 /* Pods_MLEstimatedViewHeight_Example.framework */,
+				C566A0E57C53E374EDE7A9ABE3EDD954 /* Pods_MLEstimatedViewHeight_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F542CAC274455B850876DF2ABDEDB3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4883195E3743B1A26D2BD79276905FE /* Pods-MLEstimatedViewHeight_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA6AE00B3B83034A5357B4B8D952994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511166E4F256B2034E0B4E3F9D49CE8 /* MLEstimatedViewHeight-umbrella.h in Headers */,
+				2A5E1618565976C648E5A1A6D460D380 /* MLEstimatedViewHeight.h in Headers */,
+				D8412C57C78A8819B52D4CA58F869CA1 /* UIView+MLHeight.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC6BC6842C171650B23A06679A50FEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBCD46D444AE43ECC4185574C0FE280 /* Pods-MLEstimatedViewHeight_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05A17D68212A4FB718CAAB336831FFC4 /* Pods-MLEstimatedViewHeight_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1A7E141161B5B3109A341CBE542402 /* Build configuration list for PBXNativeTarget "Pods-MLEstimatedViewHeight_Example" */;
+			buildPhases = (
+				79ED55E958674A5A8A1E283B87C61D85 /* Sources */,
+				D99D3921CCBB109CE32A4EC7A001F53E /* Frameworks */,
+				0F542CAC274455B850876DF2ABDEDB3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DDDC92D6F5CAC6207B9C2FFEEC12EC8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MLEstimatedViewHeight_Example";
+			productName = "Pods-MLEstimatedViewHeight_Example";
+			productReference = 60F0793D04278E49C3F1547DD0F2D4F3 /* Pods_MLEstimatedViewHeight_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0CFB6716277255D5CFD8E4A780CDA0EF /* MLEstimatedViewHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B432F4177020D4EB853167EDF647FDBA /* Build configuration list for PBXNativeTarget "MLEstimatedViewHeight" */;
+			buildPhases = (
+				DFB6D29099A6B5A36CAAE6ED8EA62DCC /* Sources */,
+				34C5BD19D957345635225990C84A316B /* Frameworks */,
+				EAA6AE00B3B83034A5357B4B8D952994 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLEstimatedViewHeight;
+			productName = MLEstimatedViewHeight;
+			productReference = 11FA841AFFC1F3A99E8224E4A3196315 /* MLEstimatedViewHeight.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D08FD1B4D933F7D6E2FCDD2A5A102CA /* Pods-MLEstimatedViewHeight_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06015AD6F68D8502FBFFD35828806793 /* Build configuration list for PBXNativeTarget "Pods-MLEstimatedViewHeight_Tests" */;
+			buildPhases = (
+				0964FE84F118A0578F7F1597323F3201 /* Sources */,
+				75A3E940AA71B0D5205688D4A6AF4720 /* Frameworks */,
+				EFC6BC6842C171650B23A06679A50FEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884260F4A20FA4B523C94C5A20819798 /* PBXTargetDependency */,
+			);
+			name = "Pods-MLEstimatedViewHeight_Tests";
+			productName = "Pods-MLEstimatedViewHeight_Tests";
+			productReference = C566A0E57C53E374EDE7A9ABE3EDD954 /* Pods_MLEstimatedViewHeight_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ECBBD5D981890CA509A7A21A7FE90D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CFB6716277255D5CFD8E4A780CDA0EF /* MLEstimatedViewHeight */,
+				05A17D68212A4FB718CAAB336831FFC4 /* Pods-MLEstimatedViewHeight_Example */,
+				5D08FD1B4D933F7D6E2FCDD2A5A102CA /* Pods-MLEstimatedViewHeight_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0964FE84F118A0578F7F1597323F3201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34913A395EA2B6AE1B5BC8BD0E97780 /* Pods-MLEstimatedViewHeight_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79ED55E958674A5A8A1E283B87C61D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B727704C64AD3C3863ED867C873FD5 /* Pods-MLEstimatedViewHeight_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6D29099A6B5A36CAAE6ED8EA62DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C53493D9FD20C206C354201103A9D2F /* MLEstimatedViewHeight-dummy.m in Sources */,
+				2578BB5F2A64BB0BA0C4AD2478A6C9DA /* MLEstimatedViewHeight.m in Sources */,
+				6D5A001617BD4F69AA515EC6A03E6825 /* UIView+MLHeight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DDDC92D6F5CAC6207B9C2FFEEC12EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLEstimatedViewHeight;
+			target = 0CFB6716277255D5CFD8E4A780CDA0EF /* MLEstimatedViewHeight */;
+			targetProxy = E64C342067CC5362C241ECF79C0C3555 /* PBXContainerItemProxy */;
+		};
+		884260F4A20FA4B523C94C5A20819798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MLEstimatedViewHeight_Example";
+			target = 05A17D68212A4FB718CAAB336831FFC4 /* Pods-MLEstimatedViewHeight_Example */;
+			targetProxy = 363A7CAB813190DE5793E58D4364F28D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E4CD12F51E4136BEECF3B81BC0FA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A210990722D289F8CED27F2429D11532 /* Pods-MLEstimatedViewHeight_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Tests/Pods-MLEstimatedViewHeight_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A92C15A69A637316E36EB1935190FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3652C491B6B416AEB130A938A9FC017 /* MLEstimatedViewHeight.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLEstimatedViewHeight/MLEstimatedViewHeight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLEstimatedViewHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLEstimatedViewHeight/MLEstimatedViewHeight.modulemap";
+				PRODUCT_MODULE_NAME = MLEstimatedViewHeight;
+				PRODUCT_NAME = MLEstimatedViewHeight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84D842C9A8C9D750AC5BDF160150DB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3652C491B6B416AEB130A938A9FC017 /* MLEstimatedViewHeight.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLEstimatedViewHeight/MLEstimatedViewHeight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLEstimatedViewHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLEstimatedViewHeight/MLEstimatedViewHeight.modulemap";
+				PRODUCT_MODULE_NAME = MLEstimatedViewHeight;
+				PRODUCT_NAME = MLEstimatedViewHeight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7C78617D96352995A5B1917B48F3E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC0BA4527D3DFFEDADCF5BD9DC31201 /* Pods-MLEstimatedViewHeight_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Example/Pods-MLEstimatedViewHeight_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2710D84E5A55547BC2A2BF8DA65B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E60CA4B0C502E2B7CC90B1D44F903A0 /* Pods-MLEstimatedViewHeight_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Example/Pods-MLEstimatedViewHeight_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FB0692928C22B06FE701272577A61EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253BC5C083CA6DF70495CBAB753F1D26 /* Pods-MLEstimatedViewHeight_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MLEstimatedViewHeight_Tests/Pods-MLEstimatedViewHeight_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06015AD6F68D8502FBFFD35828806793 /* Build configuration list for PBXNativeTarget "Pods-MLEstimatedViewHeight_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0692928C22B06FE701272577A61EB4 /* Debug */,
+				02E4CD12F51E4136BEECF3B81BC0FA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1A7E141161B5B3109A341CBE542402 /* Build configuration list for PBXNativeTarget "Pods-MLEstimatedViewHeight_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C78617D96352995A5B1917B48F3E2F /* Debug */,
+				F2710D84E5A55547BC2A2BF8DA65B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B432F4177020D4EB853167EDF647FDBA /* Build configuration list for PBXNativeTarget "MLEstimatedViewHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A92C15A69A637316E36EB1935190FB1 /* Debug */,
+				84D842C9A8C9D750AC5BDF160150DB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

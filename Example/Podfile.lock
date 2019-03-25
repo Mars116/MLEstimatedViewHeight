@@ -1,0 +1,16 @@
+PODS:
+  - MLEstimatedViewHeight (0.1.0)
+
+DEPENDENCIES:
+  - MLEstimatedViewHeight (from `../`)
+
+EXTERNAL SOURCES:
+  MLEstimatedViewHeight:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLEstimatedViewHeight: 09516ee1a7c3b83278ff95253acfec3a2dfc2a4b
+
+PODFILE CHECKSUM: 0ee199cc4de69d52758abd8c8d9191cb637339db
+
+COCOAPODS: 1.5.3
