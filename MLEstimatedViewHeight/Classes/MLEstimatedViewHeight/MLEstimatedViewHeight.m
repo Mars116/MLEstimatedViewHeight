@@ -81,8 +81,10 @@ static MLEstimatedViewHeight* _instance = nil;
 }
 
 - (void)setEstimatedView:(UIView *)estimatedView{
-    _estimatedView = estimatedView;
-    [self calculateHeight:nil];
+     @synchronized(self) {
+         _estimatedView = estimatedView;
+         [self calculateHeight:nil];
+     }
 }
 
 - (float)setMlHeight:(float)estimatedHeight{
