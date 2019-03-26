@@ -24,17 +24,18 @@
         case 0:
             mlHeight = self.testView1.mlHeight;
             break;
-        case 1:
-            mlHeight = self.testView2.mlHeight;
+        case 1:{
+            [self.testView2_1 mlHeightBlock:^(float mlHeight) {
+                self.textView.text = [NSString stringWithFormat:@"print view2 mlHeight %.2f",mlHeight];
+            }];
+        }
             break;
         case 2:
             mlHeight = self.testView3.mlHeight;
             break;
-        case 3:{
-            [self.testView2_1 mlHeightBlock:^(float mlHeight) {
-                self.textView.text = [NSString stringWithFormat:@"print view4 mlHeight %.2f",mlHeight];
-            }];
-        }
+        case 3:
+            mlHeight = self.testView4.mlHeight;
+       
             break;
         default:
             mlHeight = self.testView1.mlHeight;
