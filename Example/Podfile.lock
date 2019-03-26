@@ -1,5 +1,5 @@
 PODS:
-  - MLEstimatedViewHeight (0.1.0)
+  - MLEstimatedViewHeight (0.1.1)
 
 DEPENDENCIES:
   - MLEstimatedViewHeight (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MLEstimatedViewHeight: 6b83566378294b392fd04f922eac693d8eb70341
+  MLEstimatedViewHeight: c5fb761c812e0dc1d5441b549710cd70a38d4c82
 
 PODFILE CHECKSUM: 0ee199cc4de69d52758abd8c8d9191cb637339db
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
