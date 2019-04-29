@@ -102,7 +102,24 @@ static MLEstimatedViewHeight* _instance = nil;
 
 - (UIView *)copyEstimatedView:(UIView *)view{
     NSData *tempArchive = [NSKeyedArchiver archivedDataWithRootObject:view];
-    return [NSKeyedUnarchiver unarchiveObjectWithData:tempArchive];
+    UIView *copyEstimatedView;
+    
+    if (tempArchive) {
+        @try {
+            if (@available(iOS 9.0, *)) {
+                copyEstimatedView = [NSKeyedUnarchiver unarchiveTopLevelObjectWithData:tempArchive error:nil];
+            } else {
+                copyEstimatedView = [NSKeyedUnarchiver unarchiveObjectWithData:tempArchive];
+            }
+        }
+        @catch (NSException *exception) {
+            copyEstimatedView = view;
+        }
+    }else{
+        copyEstimatedView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, view.frame.size.width, view.frame.size.height)];
+    }
+    
+    return copyEstimatedView;
 }
 
 @end
